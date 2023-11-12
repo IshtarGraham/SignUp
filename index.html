@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="/home/deebian/web/SignUp/images/leaf.jpg" alt="Leaf Image">
+        </div>
+        <div class="content">
+            <div class="logo">
+                <div class="logo-background"><img src ="/home/deebian/web/SignUp/images/odin-lined.png"></div>
+                <h1>ODIN</h1>
+            </div>
+            <form action="#" method="post">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="error" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" class="error" required>
+
+                <button type="submit" id="createAccountButton">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="#">Login</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
